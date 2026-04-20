@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Beverage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Select Beverages & Snacks</h1>
+        <div class="card">
+        <h3>Popcorn</h3>
+        <button onclick="addItem('Popcorn', 200)">Add ₹200</button>
+    </div>
+
+    <div class="card">
+        <h3>Coke</h3>
+        <button onclick="addItem('Coke', 100)">Add ₹100</button>
+    </div>
+
+    <div class="card">
+        <h3>Nachos</h3>
+        <button onclick="addItem('Nachos', 150)">Add ₹150</button>
+    </div>
+
+    <h3>Total Snacks: ₹<span id="snackTotal">0</span></h3>
+
+    <button onclick="goToConfirm()">Continue</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

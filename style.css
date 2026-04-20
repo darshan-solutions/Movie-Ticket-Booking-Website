@@ -1,0 +1,85 @@
+body {
+    background: #111;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.seat {
+    display: inline-block;
+    background: #444;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.seat.selected {
+    background: blue;
+}
+
+.seat.booked {
+    background: red;
+    cursor: not-allowed;
+}
+
+.screen {
+    background: white;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+.movie-img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card{
+    background: #222;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+.home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.home-btn:hover {
+    background: #1d4ed8;
+}
